@@ -7281,8 +7281,9 @@ DIN A4, landscape with location and doc. field</description>
 <text x="15.24" y="109.22" size="1.778" layer="97">BONE_SCH.pdf, AIN0, P9.39</text>
 <text x="15.24" y="121.92" size="1.778" layer="97">actually a DS18B20+</text>
 <text x="132.08" y="137.16" size="1.778" layer="97">free to use headers</text>
-<text x="134.62" y="25.4" size="1.778" layer="94">texane@gmail.com</text>
+<text x="134.62" y="20.32" size="1.778" layer="94">texane@gmail.com</text>
 <text x="134.62" y="22.86" size="1.778" layer="94">v0000</text>
+<text x="134.62" y="25.4" size="1.778" layer="94">https://github.com/texane/bbone_ct_cape</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="0" y="83.82" rot="R180"/>
