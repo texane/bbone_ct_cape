@@ -1,24 +1,22 @@
 ac intensity measurement
 
 
-[ schematics ]
-
-use a beagle bone
-
-burden resistor computation:
+[ burden resistor computation ]
 i_sensor = i_peak / n_turns = 50 / 2000 = 0.025 A
 r_burden = (avcc / 2) / i_sensor = avcc / 0.05
 if avcc = 5 V, r_burden = 100 Ohms, p_burden = 0.250 W
 if avcc = 3.3 V, r_burden = 66.5 Ohms, p_burden = 0.16 W
 if avcc = 1.8 V, r_burden = 33 Ohms, p_burden = 0.098 W
 
-ac current computation:
+[ ac current computation ]
 i_peak = abs(avcc / 2 - u_sensor) / r_burden * 2000
 i_rms = i_peak / sqrt(2)
 
-[ references ]
-
+[ ac measure references ]
 http://openenergymonitor.org/emon/buildingblocks/report-yhdc-sct-013-000-current-transformer
 http://www.ebay.com/itm/SCT-013-050-50A-Non-invasive-AC-current-sensor-Split-Core-Current-Transformer-l-/281121457602
 http://openenergymonitor.org/emon/buildingblocks/ct-sensors-interface
 http://www.homautomation.org/2013/09/17/current-monitoring-with-non-invasive-sensor-and-arduino/
+
+[ temperature measure references ]
+https://learn.adafruit.com/tmp36-temperature-sensor

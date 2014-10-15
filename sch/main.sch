@@ -51,7 +51,7 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
@@ -6341,6 +6341,9 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <text x="-17.78" y="58.42" size="1.778" layer="97">if AVCC is 1.8V, R4 = 36</text>
 <text x="-17.78" y="68.58" size="1.778" layer="97">assumes Imax is 50A peak (35A RMS)</text>
 <text x="-17.78" y="66.04" size="1.778" layer="97">assumes SCT-013-000 sensor</text>
+<text x="25.4" y="93.98" size="1.778" layer="97">BONE_SCH.pdf, VDD_ADC, P9.32</text>
+<text x="30.48" y="50.8" size="1.778" layer="97">BONE_SCH.pdf, GNDA_ADC, P9.34</text>
+<text x="15.24" y="109.22" size="1.778" layer="97">BONE_SCH.pdf, AIN0, P9.39</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="0" y="83.82" rot="R180"/>
