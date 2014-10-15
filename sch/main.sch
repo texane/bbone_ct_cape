@@ -7189,6 +7189,52 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A4L-LOC">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7219,6 +7265,7 @@ W = angled&lt;p&gt;
 <part name="P9" library="con-lstb" deviceset="MA18-2" device=""/>
 <part name="JP10" library="SparkFun" deviceset="M10" device="LOCK"/>
 <part name="JP11" library="SparkFun" deviceset="M10" device="LOCK"/>
+<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7233,7 +7280,9 @@ W = angled&lt;p&gt;
 <text x="27.94" y="53.34" size="1.778" layer="97">BONE_SCH.pdf, GNDA_ADC, P9.34</text>
 <text x="15.24" y="109.22" size="1.778" layer="97">BONE_SCH.pdf, AIN0, P9.39</text>
 <text x="15.24" y="121.92" size="1.778" layer="97">actually a DS18B20+</text>
-<text x="0" y="40.64" size="1.778" layer="97">free to use headers</text>
+<text x="132.08" y="137.16" size="1.778" layer="97">free to use headers</text>
+<text x="134.62" y="25.4" size="1.778" layer="94">texane@gmail.com</text>
+<text x="134.62" y="22.86" size="1.778" layer="94">v0000</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="0" y="83.82" rot="R180"/>
@@ -7247,18 +7296,23 @@ W = angled&lt;p&gt;
 <attribute name="VALUE" x="15.24" y="122.174" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="38.1" y="134.62" rot="R90"/>
-<instance part="JP3" gate="G$1" x="0" y="27.94"/>
-<instance part="JP1" gate="G$1" x="12.7" y="27.94"/>
-<instance part="JP2" gate="G$1" x="25.4" y="27.94"/>
-<instance part="JP4" gate="G$1" x="38.1" y="27.94"/>
-<instance part="JP5" gate="G$1" x="0" y="-7.62"/>
-<instance part="JP6" gate="G$1" x="12.7" y="-7.62"/>
-<instance part="JP7" gate="G$1" x="25.4" y="-7.62"/>
-<instance part="JP8" gate="G$1" x="38.1" y="-7.62"/>
-<instance part="JP9" gate="G$1" x="50.8" y="-7.62"/>
+<instance part="JP3" gate="G$1" x="132.08" y="124.46"/>
+<instance part="JP1" gate="G$1" x="144.78" y="124.46"/>
+<instance part="JP2" gate="G$1" x="157.48" y="124.46"/>
+<instance part="JP4" gate="G$1" x="170.18" y="124.46"/>
+<instance part="JP5" gate="G$1" x="132.08" y="88.9"/>
+<instance part="JP6" gate="G$1" x="144.78" y="88.9"/>
+<instance part="JP7" gate="G$1" x="157.48" y="88.9"/>
+<instance part="JP8" gate="G$1" x="170.18" y="88.9"/>
+<instance part="JP9" gate="G$1" x="182.88" y="88.9"/>
 <instance part="P9" gate="G$1" x="88.9" y="99.06" rot="R180"/>
-<instance part="JP10" gate="G$1" x="50.8" y="27.94"/>
-<instance part="JP11" gate="G$1" x="63.5" y="27.94"/>
+<instance part="JP10" gate="G$1" x="182.88" y="124.46"/>
+<instance part="JP11" gate="G$1" x="195.58" y="124.46"/>
+<instance part="FRAME1" gate="G$1" x="-30.48" y="5.08" smashed="yes">
+<attribute name="DRAWING_NAME" x="186.69" y="20.32" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="186.69" y="15.24" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="200.025" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
