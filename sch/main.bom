@@ -13,10 +13,15 @@ http://fr.farnell.com/te-connectivity/crgh1206f470k/resistance-puissance-470k-0-
 2 (10)
 0.361
 
-470 resistor
-http://fr.farnell.com/bourns/cr1206-fx-4700elf/resistance-cms/dp/2333573
+4.7K resistor
+http://fr.farnell.com/bourns/cr1206-fx-4701elf/resistance-cms/dp/2333551
+1 (5)
+0.2680
+
+1K resistor
+http://fr.farnell.com/vishay-draloric/crcw12061k00fkta/resistance-couche-epaisse/dp/1653075
 1 (10)
-0.525
+0.402
 
 100 resistor
 http://fr.farnell.com/te-connectivity/crgh1206f100r/resistance-puissance-100r-0-5w/dp/2332126
@@ -37,3 +42,13 @@ SCT-013-000 current sensor
 ebay
 1
 6
+
+tmp36 temperature sensor
+fr.farnell.com/analog-devices/tmp37ft9z/capteur-temp-2deg-125deg-3to92/dp/2102510
+1 (5)
+6
+
+DS18B20+ temperature sensor
+http://fr.farnell.com/maxim-integrated-products/ds18b20/programmable-digital-tmom-12-bits/dp/1187948
+1
+5.23
